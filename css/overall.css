@@ -1,0 +1,82 @@
+body
+{
+	background-color: #000033;
+}
+
+div
+{
+	display: none;
+}
+
+#container, #container div
+{
+	display: block;
+}
+
+#container
+{
+	width: 800px;
+	margin: 60px auto;
+	text-align: center;
+	background: url('../images/bg.jpg');
+}
+
+dl
+{
+	width: 400px;
+	text-align: left;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+dt
+{
+	float: left;
+	font-weight: bold;
+	width: 100px;
+	clear: left;
+}
+
+dt:after
+{
+	content: ':';
+}
+
+.firstItem, .lastItem
+{
+	height: 15px;
+}
+	
+dd
+{
+	clear: right;
+}
+
+dd.text
+{
+	clear: left;
+}
+
+.tableHead
+{
+	border-bottom: solid black 1px;
+	background-color: #000033;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#header
+{
+	background: url('../images/bgtop.jpg') no-repeat;
+	height: 200px;
+	padding: 15px;
+}
+
+#footer
+{
+	background: url('../images/bgbottom.jpg') no-repeat;
+	height: 60px;
+}
